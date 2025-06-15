@@ -1,11 +1,16 @@
 {
-  "name": "ps2-roblox-bridge",
+  "name": "ps2-roblox-server",
   "version": "1.0.0",
+  "description": "Servidor ponte PS2 -> Roblox",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "keywords": [],
+  "author": "Paulo",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
   }
 }
